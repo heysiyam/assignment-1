@@ -1,0 +1,47 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 50px;
+
+}
+.misson-color{
+    color: rgb(231, 118, 165);
+}
+.explore{
+    text-decoration: none;
+    background-image: linear-gradient(#b888bd,#bd888b );
+    padding: 10px 40px;
+    color: cornsilk;
+    font-weight: 800;
+    border-radius: 5px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+
+}
+.text{
+    margin-left: 140px;
+}
+.text-border{
+    border-left: 4px solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(144, 89, 247), 
+      #b888bd
+    ) 1 100%;
+
+}
+.half-width img{
+    width: 80%;
+}
+.text-center{
+    text-align: center;
+}
